@@ -1,4 +1,4 @@
-# Funiro - Webshop
+# Funiro - Modern Webshop
 
 Welcome to **Funiro**, your one-stop modern webshop for stylish and high-quality furniture. This project showcases a responsive, user-friendly e-commerce interface designed to enhance the online shopping experience.
 
@@ -24,7 +24,6 @@ Check out the live website: [Funiro Webshop](https://funiro-webshop.netlify.app)
 ## 📸 Screenshot
 
 ![Funiro Webshop Screenshot](<insert-screenshot-link-here>)
-
 
 ## 📫 Contact
 
