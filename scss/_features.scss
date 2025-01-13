@@ -1,0 +1,39 @@
+.features {
+    padding: 2.6rem 0;
+    margin: 8.8rem 0 0 0;
+}
+
+.features-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature__img {
+    margin-right: 2.6rem;
+}
+
+.feature__img-icon {}
+
+.feature__content {}
+
+.feature__content-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
+    line-height: 150%;
+    font-family: $font-bold;
+}
+
+.feature__content-text {
+    font-size: 1.6rem;
+    line-height: 150%;
+    font-family: $font-semibold;
+    color: #898989;
+}

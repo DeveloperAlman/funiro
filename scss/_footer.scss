@@ -1,0 +1,140 @@
+.footer__wrapper {
+    padding: 8rem 0 4rem 0;
+    border-top: 2px solid #efefef;
+    display: flex;
+    margin-top: 3.6rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    font-family: $font-semibold;
+}
+
+.footer-logo {
+    margin-bottom: 2rem;
+}
+
+.footer-text {
+    margin-bottom: 2.5rem;
+}
+
+.footer-text__paragraph {
+    font-size: 1.8rem;
+    max-width: 28rem;
+    line-height: 150%;
+    color: $color-dark;
+}
+
+.footer-links__address {
+    font-size: 1.6rem;
+}
+
+.icon-location,
+.icon-phone {
+    margin-right: 1.2rem;
+    font-size: 1.8rem;
+    color: $color-grey;
+}
+
+.footer-list__item {
+    margin-bottom: 2.6rem;
+}
+
+.footer-list__title {
+    font-size: 2.2rem;
+    font-family: $font-bold;
+    color: $color-dark;
+}
+
+.footer-list__link {
+    font-size: 1.6rem;
+    transition: all 0.5s ease;
+
+    &:hover {
+        color: $color-primary;
+    }
+}
+
+.footer-links__address,
+.footer-links__address a {
+    margin-bottom: 2rem;
+    font-family: $font-semibold;
+    color: $color-grey;
+    transition: all 0.5s ease;
+}
+
+.footer-links__address-icon {
+    display: flex;
+    font-family: $font-semibold;
+
+    &>div {
+        margin-right: 1rem;
+    }
+}
+
+.footer-links__address:hover {
+    color: $color-primary;
+}
+
+.footer-form {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-form__input {
+    border: none;
+    outline: none;
+    padding: 1.7rem;
+    background: #F4F5F7;
+    color: $color-dark;
+    font-family: $font-semibold;
+    font-size: 1.6rem;
+    border-top-left-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
+}
+
+.footer-form__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 1.77rem;
+    cursor: pointer;
+    background: $color-primary;
+    border-top-right-radius: 1.6rem;
+    border-bottom-right-radius: 1.6rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: darken($color-primary, 3%);
+    }
+}
+
+.icon-send {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.title-connect {
+    margin-bottom: 2rem;
+}
+
+.footer__copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.footer__copy-text {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: $font-semibold;
+    font-family: $font-bold;
+}
+
+.anivia {
+    color: $color-primary;
+}

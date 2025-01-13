@@ -1,0 +1,214 @@
+.main-slider {
+    position: relative;
+    padding-top: 20rem;
+    padding-bottom: 4rem;
+    background: linear-gradient(90deg, #F9F1E7 0%, #F9F1E7 70%, #FCF8F3 70%);
+
+    &__container {}
+
+    &__body {
+        position: relative;
+    }
+
+    &__content {}
+
+    &__slider {
+        position: relative;
+    }
+}
+
+.content-main {
+    position: absolute;
+    top: -7rem;
+    left: 0;
+    padding: 6rem;
+    background: rgba(255, 255, 255, 0.689);
+    z-index: 10;
+    width: 49rem;
+    backdrop-filter: blur(2rem);
+    height: 55.3rem;
+    border-radius: 1.6rem;
+
+    &__wrapper {}
+
+    &__heading {
+        color: $color-dark;
+        font-size: 5.6rem;
+        font-family: 'Gilroy-Extra-Bold';
+        line-height: 120%;
+        margin-bottom: 2rem;
+
+        & span {
+            background: linear-gradient(100deg, $color-primary 5%, darken($color-primary, 8%) 55%);
+            display: inline-block;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    }
+
+    &__text {
+        color: $color-grey;
+        font-size: 2rem;
+        margin-bottom: 5rem;
+        font-family: $font-semibold;
+        line-height: 150%;
+    }
+
+    &__btn {
+        display: block;
+        padding: 2.5rem 5rem;
+        background: $color-primary;
+        color: white;
+        font-size: 2rem;
+        font-family: $font-semibold;
+        text-align: center;
+        border-radius: 1.6rem;
+        transition: all 0.5s ease;
+
+        &:hover {
+            background: darken($color-primary, 8%);
+        }
+    }
+}
+
+.slider-main {
+
+    &__body {
+        width: 100rem !important;
+    }
+
+    &__slide {
+        position: relative;
+        width: 100rem !important;
+    }
+
+    &__image {
+        display: flex;
+        justify-content: flex-end;
+        object-fit: contain;
+        position: relative;
+        width: 131rem !important;
+        border-radius: 1.6rem;
+
+        & img {
+            display: block;
+            object-fit: contain;
+            border-radius: 1.6rem;
+        }
+    }
+
+    &__content {
+        position: absolute;
+        bottom: 0;
+        z-index: 15;
+        right: -31.5%;
+        width: 29.4rem;
+        height: 14.8rem;
+        background: rgba(255, 255, 255, 0.52);
+        backdrop-filter: blur(1rem);
+        padding: 2.5rem;
+        margin: 4.3rem;
+        border-radius: 1.6rem;
+    }
+
+    &__heading {
+        color: #3A3A3A;
+        font-size: 2.8rem;
+        line-height: 120%;
+        margin-bottom: 0.4rem;
+        font-family: $font-bold;
+    }
+
+    &__text {
+        color: #616161;
+        font-size: 1.6rem;
+        line-height: 150%;
+        margin-bottom: 0.8rem;
+        font-family: $font-semibold;
+    }
+
+    &__price {
+        color: #3A3A3A;
+        font-size: 2rem;
+        line-height: 150%;
+        font-family: $font-bold;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.slick-dots {
+    display: flex;
+    position: absolute;
+    top: -5rem;
+    left: 40%;
+    z-index: 35;
+}
+
+.slick-dots .slick-active button {
+    background: $color-primary;
+    outline: 2px solid #ff897b;
+    outline-offset: 0.6rem;
+}
+
+.slick-dots li button {
+    border-radius: 1.5rem;
+    background: #d2d2d2;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0;
+    border: none;
+    outline: 2px solid transparent;
+    outline-offset: 0.6rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover {
+        background: $color-primary;
+    }
+}
+
+.icon-arrow-link {
+    font-size: 2rem;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slider-arrow {
+    border-radius: 4.8rem;
+    width: 4.8rem;
+    height: 4.8rem;
+    border: none;
+    background: $color-primary;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover {
+        background: darken($color-primary, 8%);
+    }
+}
+
+.slider-arrow--prev {
+    transform: rotate(90deg);
+    position: absolute;
+    top: -7rem;
+    right: 5%;
+    z-index: 35;
+}
+
+.slider-arrow--next {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: -7rem;
+    right: 0;
+    z-index: 35;
+}

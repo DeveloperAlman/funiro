@@ -1,0 +1,33 @@
+.banner {}
+
+.content-banner {
+    &__link {
+        display: block;
+    }
+
+    &__img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.content-banner-desktop-2 {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    background: url(../img/banners/banner-2.webp) center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 8.8rem;
+}
+
+.content-banner-desktop-1 {
+    width: 100%;
+    height: 25.7rem;
+    object-fit: contain;
+    background: url(../img/banners/banner-1.webp) center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 8.8rem;
+    margin-bottom: 0;
+}

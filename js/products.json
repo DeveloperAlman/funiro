@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "id": 9,
+      "url": "#",
+      "title": "Grifo",
+      "text": "The Brown Elephant",
+      "labels": "",
+      "image": "09.webp",
+      "price": "2.990.000",
+      "priceOld": "1.990.000",
+      "shareUrl": "",
+      "likeUrl": ""
+    },
+    {
+      "id": 10,
+      "url": "#",
+      "title": "Muggo",
+      "text": "Desley Dee Platinum",
+      "classname": "sale-30",
+      "labels": [
+        {
+          "type": "sale",
+          "value": "-50%"
+        },
+        {
+          "type": "new",
+          "value": "New"
+        }
+      ],
+      "image": "10.webp",
+      "price": "1.500.000",
+      "priceOld": "2.500.000",
+      "shareUrl": "",
+      "likeUrl": ""
+    },
+    {
+      "id": 11,
+      "url": "#",
+      "title": "Pingky",
+      "text": "Cute living set",
+      "labels": [
+        {
+          "type": "sale",
+          "value": "-50%"
+        }
+      ],
+      "image": "11.webp",
+      "price": "5.000.000",
+      "priceOld": "7.500.000",
+      "shareUrl": "",
+      "likeUrl": ""
+    },
+    {
+      "id": 12,
+      "url": "#",
+      "title": "Potty",
+      "text": "Minimalist Working Pot",
+      "labels": [
+        {
+          "type": "new",
+          "value": "New"
+        }
+      ],
+      "image": "12.webp",
+      "price": "800.000",
+      "priceOld": "1.100.000",
+      "shareUrl": "",
+      "likeUrl": ""
+    }
+  ]
+}

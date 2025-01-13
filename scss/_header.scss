@@ -1,0 +1,222 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 150;
+    backdrop-filter: blur(1rem);
+    transition: all 0.5s ease;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        min-height: 10rem;
+    }
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__main-logo {
+        margin-right: 5rem;
+    }
+
+    &__main-logo-link {
+        font-size: 3rem;
+        color: $color-dark;
+        font-family: $font-bold;
+        line-height: 3rem;
+        transition: all 0.5s ease;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+
+    &__main-nav-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__main-nav-item {
+        margin-right: 5rem;
+        transition: all 0.5s ease;
+
+        &:hover .menu__arrow {
+            transform: rotate(0deg);
+            color: $color-primary;
+        }
+
+        &:hover .header__main-sub {
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+    }
+
+    &__main-nav-link {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 1.6rem;
+        color: $color-dark;
+        font-family: $font-semibold;
+        transition: all 0.5s ease;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+
+    &__main-sub {
+        background: $color-primary;
+        border-radius: 1.6rem;
+        overflow: hidden;
+        position: absolute;
+        margin-top: 1rem;
+        opacity: 0;
+        transition: all 0.5s ease;
+        visibility: hidden;
+    }
+
+    &__main-sublink {
+        font-size: 1.6rem;
+        color: white;
+        width: 100%;
+        display: flex;
+        padding: 1.8rem 3.2rem;
+        padding-left: 1.6rem;
+        font-family: $font-semibold;
+        transition: all 0.5s ease;
+        border-radius: 1.6rem;
+
+        &:hover {
+            background: darken($color-primary, 3%);
+        }
+    }
+
+    &__search {
+        flex: 1;
+    }
+
+    &__search-form {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        max-width: 47.5rem;
+        border-radius: 1.6rem;
+        overflow: hidden;
+    }
+
+    &__search-btn {
+        background: none;
+        border: none;
+        outline: none;
+        font-size: 2rem;
+        padding: 1.6rem;
+        background: #FFF;
+        padding-right: 0;
+        cursor: pointer;
+        color: $color-grey;
+    }
+
+    &__search-input {
+        width: 100%;
+        height: 5.2rem;
+        padding: 1.6rem;
+        border: none;
+        color: $color-dark;
+        background: #FFF;
+        outline: none;
+        font-size: 1.6rem;
+        font-family: $font-semibold;
+        transition: all 0.5s ease;
+
+        &::placeholder {
+            color: inherit;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__actions-profile {
+        width: 4rem;
+        height: 4rem;
+        cursor: pointer;
+        margin-left: 3.6rem;
+    }
+
+    &__actions-profile-avatar {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.menu__arrow {
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: $color-dark;
+    transition: all 0.35s ease-in-out;
+    transform: rotate(180deg);
+}
+
+.icon-search {
+    color: $color-dark;
+    transition: all 0.5s ease;
+
+    &:hover {
+        color: $color-primary;
+    }
+}
+
+.icon-favorite,
+.icon-cart {
+    font-size: 2.6rem;
+    color: $color-dark;
+    margin-left: 3.6rem;
+    transition: all 0.5s ease;
+
+    &:hover {
+        color: $color-primary;
+    }
+}
+
+.icon-cart {
+    font-size: 3rem;
+    position: relative;
+    transition: all 0.5s ease;
+
+    &:hover {
+        color: $color-primary;
+    }
+}
+
+.icon-cart span {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-semibold;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: $color-primary;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+
+.nav-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
