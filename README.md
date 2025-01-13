@@ -3,7 +3,7 @@
 Welcome to **Funiro**, your one-stop modern webshop for stylish and high-quality furniture. This project showcases a responsive, user-friendly e-commerce interface designed to enhance the online shopping experience.
 
 ## 🌐 Live Demo
-Check out the live website: [Funiro Webshop](https://funiro-webshop.netlify.app)
+Check out the live website: [Funiro Webshop]([url=https://postimg.cc/yJq8f8md][img]https://i.postimg.cc/TP153yhr/1.avif[/img][/url])
 
 ![Funiro Webshop Screenshot](https://postimg.cc/yJq8f8md)
 
