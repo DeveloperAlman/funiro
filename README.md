@@ -5,7 +5,7 @@ Welcome to **Funiro**, your one-stop modern webshop for stylish and high-quality
 ## 🌐 Live Demo
 Check out the live website: [Funiro Webshop](https://funiro-webshop.netlify.app)
 
-![Funiro Webshop Screenshot](https://via.placeholder.com/800x400?text=Website+Screenshot+Placeholder)
+![Funiro Webshop Screenshot](https://postimg.cc/yJq8f8md)
 
 ## ✨ Features
 
@@ -23,7 +23,8 @@ Check out the live website: [Funiro Webshop](https://funiro-webshop.netlify.app)
 
 ## 📸 Screenshot
 
-![Funiro Webshop Screenshot](<insert-screenshot-link-here>)
+![Funiro Webshop Screenshot](https://postimg.cc/nsvcNf21)
+![Funiro Webshop Screenshot](https://postimg.cc/47sNg2FR)
 
 ## 📫 Contact
 
