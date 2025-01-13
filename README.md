@@ -3,9 +3,9 @@
 Welcome to **Funiro**, your one-stop modern webshop for stylish and high-quality furniture. This project showcases a responsive, user-friendly e-commerce interface designed to enhance the online shopping experience.
 
 ## 🌐 Live Demo
-Check out the live website: [Funiro Webshop] <a href="https://postimg.cc/yJq8f8md" target="_blank"><img src="https://i.postimg.cc/yJq8f8md/1.avif" alt="1"/></a><br/><br/>
+Check out the live website: [Funiro Webshop] (https://i.postimg.cc/TP153yhr/1.avif)
 
-![Funiro Webshop Screenshot](https://postimg.cc/yJq8f8md)
+![Funiro Webshop Screenshot](https://i.postimg.cc/TP153yhr/1.avif)
 
 ## ✨ Features
 
