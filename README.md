@@ -23,8 +23,8 @@ Check out the live website: [Funiro Webshop] (https://i.postimg.cc/TP153yhr/1.av
 
 ## 📸 Screenshot
 
-![Funiro Webshop Screenshot](https://postimg.cc/nsvcNf21)
-![Funiro Webshop Screenshot](https://postimg.cc/47sNg2FR)
+![Funiro Webshop Screenshot](https://i.postimg.cc/ZRy9618n/2.avif)
+![Funiro Webshop Screenshot](https://i.postimg.cc/3wq44KDz/3.avif)
 
 ## 📫 Contact
 
